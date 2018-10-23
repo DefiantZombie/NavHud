@@ -111,7 +111,6 @@ namespace NavHud
 
             mesh.RecalculateNormals();
             mesh.RecalculateBounds();
-            mesh.Optimize();
 
             meshFilter.mesh = mesh;
 
